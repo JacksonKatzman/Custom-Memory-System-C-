@@ -1,0 +1,24 @@
+Program Assignment 
+Name: Student_Test_01
+Mode: DEBUG
+
+-------------------------------------------------
+
+Test 1: 
+
+     Mem mem;               
+     mem.Initialize();      
+     mem.Dump();            
+
+------- DUMP -------------
+
+heapStart: 0x0358C150     
+  heapEnd: 0x03598950   
+
+pUsedHead: 0x00000000     
+pFreeHead: 0x0358C190     
+ pNextFit: 0x0358C190   
+
+Heap Hdr   s: 0358C150  e: 0358C190                            size: 0x40 
+FREE HDR   s: 0358C190  e: 0358C1A0  p: 00000000  n: 00000000  size: 0x10    AF: 0 
+FREE       s: 0358C1A0  e: 03598950                            size: 0xc7b0 

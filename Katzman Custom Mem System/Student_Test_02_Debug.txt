@@ -1,0 +1,26 @@
+Program Assignment 
+Name: Student_Test_02
+Mode: DEBUG
+
+-------------------------------------------------
+
+Test2: 
+
+1) allocate the biggest block               
+     Mem mem;                         
+     mem.Initialize();                
+     void *p = mem.Malloc( 0xc7b0 );        
+     mem.Dump();                            
+
+------- DUMP -------------
+
+heapStart: 0x0358C150     
+  heapEnd: 0x03598950   
+
+pUsedHead: 0x0358C190     
+pFreeHead: 0x00000000     
+ pNextFit: 0x00000000   
+
+Heap Hdr   s: 0358C150  e: 0358C190                            size: 0x40 
+USED HDR   s: 0358C190  e: 0358C1A0  p: 00000000  n: 00000000  size: 0x10    AF: 0 
+USED       s: 0358C1A0  e: 03598950                            size: 0xc7b0 
